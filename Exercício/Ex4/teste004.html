@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café do Jaum</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1> Cafeteria do Jaum</h1>
+        <p> CARDÁPIO</p>
+    </header>
+    <section>
+
+        <div>
+            <p> Escolha a categoria:
+                <input type="radio" name="radcategoria" id="comida" onclick="com()" checked>
+                <label for="comida"> Comida</label>
+                <input type="radio" name="radcategoria" id="bebida" onclick="beb()">
+                <label for="bebida">Bebida</label>
+            </p>
+
+        </div>
+
+        <div id="res">
+            Escolha uma da opções acima
+        </div>
+
+        
+        <div>
+            <p>
+                <input type="number" name="numero" id="numero">
+                <input type="button" value="confirmar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res2">
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy;AndradeDesign</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Aprendizado</title>
+    <style>
+        body {
+            background-color: rgb(17, 171, 177);
+            color: rgb(25, 70, 216);
+            font: normal 20pt arial;
+        }
+        p {
+            color: white;
+            font: normal 18pt arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de QI</h1>
+   <p>Responda a pergunta abaixo</p>
+   <p> Sua sorte é: sortinea, sorte, sortao </p>
+   <input type="button" value="sortinea" id="sortinea()" onclick="sortinea()">
+   <input type="button" value="sorte" id="sorte()"onclick="sorte()">
+   <input type="button" value="sortao" id="sortao()"onclick="sortao()">
+   <div id="res">Resposta </div>
+    <script>
+        var res = document.getElementById ('res')
+        
+        function sortinea(){
+            document.getElementById ('sortinea')
+            res.innerHTML = ` XP`
+        }
+        function sorte(){
+             document.getElementById (' sorte')
+            res.innerHTML = ` Burão tu mané`
+        }
+        function sortao(){
+            document.getElementById (' sortao')
+            res.innerHTML = ` Burrao tu de novo mané`
+        }
+    </script>
+    <p>Proxima pergunta</p>
+    <p>Em qual opção a sorte é o critério?</p>
+    <input type="button" value="tft1"   onclick="tft1()">
+    <input type="button" value="bingo"  onclick="bingo()">
+    <input type="button" value="futebol manager" onclick="futebolmanager()">
+    <div id="resp"> Resposta</div>
+    <script>
+        var resp = document.getElementById ('resp')
+
+        function tft1(){
+            document.getElementById ('tft')
+            resp.innerHTML = ` Tu é burro ou se FAZ?`
+        }
+        function bingo(){
+            document.getElementById ('bingo')
+            resp.innerHTML = ` Não aprendeu nada esse ano, burrão tu`
+        }
+        function futebolmanager(){
+            document.getElementById ('futebolmanager')
+            resp.innerHTML = ` Acerto miseravi`
+        }
+
+    </script>
+</body>
+</html>

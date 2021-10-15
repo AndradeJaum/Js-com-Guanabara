@@ -1,0 +1,65 @@
+body {
+background-color: rgb(53, 152, 209);
+font: normal 15pt arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+div {
+    text-align: center;
+
+}
+
+div#confirmar {
+
+    font: normal 15pt arial;
+    background-color: rgb(19, 206, 90);
+    color: white;
+    height: 50px;
+    width: 130px;
+    line-height: 50px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+div#ok {
+
+    font: normal 15pt arial;
+    background-color: rgb(19, 206, 90);
+    color: white;
+    height: 50px;
+    width: 130px;
+    line-height: 50px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+div#botao {
+
+    font: normal 15pt arial;
+    color: white;
+    height: 50px;
+    width: 130px;
+    line-height: 50px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}

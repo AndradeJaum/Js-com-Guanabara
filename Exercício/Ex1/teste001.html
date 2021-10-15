@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária Fácil</title>
+    <style>
+        body{
+            background-color: teal;
+            font: normal 20pt arial;
+            color: white;
+        }
+        h1{
+            color: yellow ;
+        }
+        p{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Master Chefe Brasil</h1>
+    <p>Aprenda com os melhores a fazer suas receitas favoritas </p>
+    
+    <script>
+    var nome = window.prompt (' Qual seu nome?')
+    var perg = window.prompt (' Você já se arriscou na cozinha antes? (já/não)')
+    var m = Number (window.prompt (' Quanto está disposto a gastar por receita?'))
+    document.write (` Olá <strong>${nome}</strong>, se voce <strong>${perg}</strong> tentou fazer fazer uma determinadareceita,
+     espero que nós possamos te ajudar!`)
+    </script>
+    <p> A farofa é o acompanhamento perfeito para qualquer refeição e, quanto mais 
+        ingredientes, mais saborosa ela fica. Por isso, a farofa com bacon é a escolha 
+        perfeita para deixar o almoço com um sabor especial! Além disso, as receitas 
+        rendem várias porções e ficam prontas em apenas 20 minutos. Fácil, rápida, 
+        crocante e divina! Veja como fazer esta delícia</p>
+        <script>
+            document.write (` <strong>${nome.toUpperCase()}</strong>, se seguir a receita certinho, passo a 
+            passo, garantimos que o sabor ficará incrével meu <br/>`)
+            document.write (' Com ' + m.toLocaleString ('pt-br', {style: 'currency', currency: 'BRL'}) +' você consegue')
+        </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+background-color: rgb(53, 152, 209);
+font: normal 15pt arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+
+div {
+    text-align: center;
+}
+
+div#add {
+    
+    background-color:rgb(53, 152, 209);
+    font: normal 15pt arial;
+    color: white;
+    height: 60px;
+    width: 120px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+div#ana {
+    
+    background-color:rgb(28, 221, 102);
+    font: normal 15pt arial;
+    color: white;
+    height: 60px;
+    width: 120px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+footer{
+color: white;
+text-align: center;
+font-style: italic;
+}

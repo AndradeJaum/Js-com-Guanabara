@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imigração Estadunidense</title>
+    <style>
+        body {
+            background-color: aquamarine;
+           font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> Formulário</h1>
+    <p>De uma só pergunta!</p>
+    Nasci em <input type="text" name="pais" id="pais">
+    <input type="button" value="OK" onclick="ok()">
+    <div id="res">Resposta:</div>
+    <script>
+        function ok(){
+            var p = document.getElementById ('pais')
+            var res = document.querySelector('div#res')
+            var p1 = (p.value)
+            res.innerHTML = ` <p>Você nasceu em ${p1}</p>`
+            if (p1 != "EUA"){
+            res.innerHTML +=  `<p>Você é imigrante <strong>IMUNDO</strong>, está Preso!</p>`
+            }else {
+                res.innerHTML += ` <p>Você é Americano! Único país bom!!!!!!!!!</p>`
+            }
+        }
+
+    </script>
+</body>
+</html>
